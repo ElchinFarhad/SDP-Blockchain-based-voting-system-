@@ -1,0 +1,13 @@
+{
+  "name": "votingSystem",
+  "description": "sample voting dapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node deployContract.js && http-server ./ -p 8000"
+  },
+
+  "dependencies": {
+    "solc": "^0.4.16",
+    "web3": "^0.20.1"
+  }
+}
